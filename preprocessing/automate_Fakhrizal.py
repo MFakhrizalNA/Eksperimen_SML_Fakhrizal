@@ -70,4 +70,4 @@ def run_preprocessing_pipeline(input_path, output_dir="titanic_preprocessing"):
 
 # Eksekusi hanya jika file ini dijalankan langsung
 if __name__ == "__main__":
-    run_preprocessing_pipeline("../titanic_raw/train.csv")
+    run_preprocessing_pipeline("titanic_raw/train.csv")
